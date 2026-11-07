@@ -156,6 +156,12 @@ section { padding: 80px 0; }
 .contact-section { text-align: center; padding: 100px 0 120px; }
 .contact-section h2 { font-family: var(--display); font-size: 36px; margin-bottom: 16px; font-weight: 400; }
 .contact-section p { color: var(--fg-dim); font-size: 14px; margin-bottom: 32px; }
+.contact-email {
+  display: inline-block; font-size: 15px; letter-spacing: 0.08em;
+  color: var(--fg); text-decoration: none; margin-bottom: 32px;
+  transition: color 0.2s;
+}
+.contact-email:hover { color: var(--accent); }
 .contact-links { display: flex; justify-content: center; gap: 32px; flex-wrap: wrap; }
 .contact-link {
   font-size: 13px; font-weight: 400; letter-spacing: 0.06em;
@@ -337,6 +343,7 @@ footer {
   <div class="wrap">
     <h2 data-en="Get in Touch" data-zh="與我聯繫">Get in Touch</h2>
     <p data-en="For collaborations, festival inquiries, or just to say hello." data-zh="歡迎合作提案、影展邀約，或純粹打聲招呼。">For collaborations, festival inquiries, or just to say hello.</p>
+    <a href="mailto:youkin.1996@gmail.com" class="contact-email">youkin.1996@gmail.com</a>
     <div class="contact-links">
       <a href="https://www.youtube.com/@youkin-tt" target="_blank" rel="noopener" class="contact-link">YouTube</a>
       <a href="https://filmfreeway.com/YOUKINNone" target="_blank" rel="noopener" class="contact-link">FilmFreeway</a>
